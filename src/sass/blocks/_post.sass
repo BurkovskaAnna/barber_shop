@@ -1,0 +1,50 @@
+.post 
+  background-color: #FFF 
+  &__list
+    margin: 0 -1%
+    padding: 0
+
+  &__item
+    width: 48%
+    margin: 0 1% 20px
+    float: left
+
+  &__item_right
+    position: relative
+    font-size: 0
+
+  &__image
+    width: 100%
+    height: auto
+
+  &__caption
+    font-size: 27px
+    font-family: Calibri
+    line-height: 1.5
+    text-align: center
+
+  &__caption_left
+    padding: 45px 5%
+
+  &__caption_right
+    position: absolute
+    top: 50%
+    left: 0
+    right: 0
+    z-index: 1
+  
+  &__item_right:before
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background: rgba(192, 192, 192, 0.5)
+    z-index: 1
+
+  &__text
+    font-size: 16px
+    line-height: 1.5
+    text-align: left
+    padding: 4%
